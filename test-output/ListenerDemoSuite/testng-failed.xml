@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ListenerDemoSuite]">
+  <listeners>
+    <listener class-name="com.utils.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="ListenerTest(failed)">
+    <classes>
+      <class name="com.testng.listenersconcept.SuiteListenerDemo">
+        <methods>
+          <include name="setUp"/>
+          <include name="takeScreenshotTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testng.listenersconcept.SuiteListenerDemo -->
+    </classes>
+  </test> <!-- ListenerTest(failed) -->
+</suite> <!-- Failed suite [ListenerDemoSuite] -->

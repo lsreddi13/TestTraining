@@ -1,0 +1,33 @@
+This is a maven Project.
+Using Testng Listeners
+Class Level Listeners used in "ClassListenersDemo.java" class
+Suite Level Listeners used in SuiteListenerDemo
+
+How to take screenshot and how to use that in the listeners..
+Takescreenshot code in base class here.
+
+When the test fails then it will take the screenshot and save in the particular folder(which you give the folder path).
+Screenshot will be saved in the .png format with the name of testmethod along with the system timestamp as the below mentioned format.
+"<methodname>_yyyy-mm-dd HH-mm-ss.png"
+
+
+screenShot
+
+When ever we use Listeners then it will generate a report in testng results file in html format with the name of test name under the name of suitename folder.
+
+
+Git commands
+echo "# TestTraining" >> README.md
+git init
+git add README.md
+git add . # this command will add all files at a time.
+git commit -m "first commit"
+
+
+git remote add origin https://github.com/lsreddi13/TestTraining.git
+git push -u origin master
+                
+                
+If you have an existing repository from the command line
+git remote add origin https://github.com/lsreddi13/TestTraining.git
+git push -u origin master
