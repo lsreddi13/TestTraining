@@ -7,8 +7,10 @@
 	<test thread-count="5" name="LinsternerTestClassDemo">
 		<classes>
 			<class name="com.testng.listenerDemo.ClassLevelListener" />
-			<class name="com.testng.listenerDemo.ClassLevelListener2" />
-			<class name="com.testng.listenerDemo.ClassLevelListener3" />
+			<!-- <class name="com.testng.listenerDemo.ClassLevelListener2" />
+			<class name="com.testng.listenerDemo.ClassLevelListener3" /> -->
+			
+			<!-- <class name="com.log4j.demo.Log4JClassDemo" /> -->
 		</classes>
 	</test> <!-- LinsternerTestClassDemo -->
 </suite> <!-- LinsternerClassDemo -->
