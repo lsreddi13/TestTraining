@@ -2,16 +2,19 @@ package com.utils;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import com.base.Base;
+import com.log4j.demo.Log4JClassDemo;
 
 public class TestCutomListeners extends Base implements ITestListener {
-
+	Logger log = Logger.getLogger(TestCutomListeners.class);
 	public void onFinish(ITestContext resultContext) {
 		System.out.println(" ITestContext - onFinish  == " + resultContext.getName());
+		log.info("dafsdf" );
 
 	}
 
