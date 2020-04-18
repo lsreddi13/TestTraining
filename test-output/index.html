@@ -5,8 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-ListenerDemoSuite">
-              <span class="suite-name border-failed">ListenerDemoSuite</span>
+            <a href="#" class="navigator-link" panel-name="suite-LinsternerClassDemo">
+              <span class="suite-name border-failed">LinsternerClassDemo</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-ListenerDemoSuite">
-                    <span>D:\sasiworkspace\TestTraining\testng_ListenerDemo.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LinsternerClassDemo">
+                    <span>D:\sasiworkspace\TestTraining\testng_sat.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-ListenerDemoSuite">
+                  <a href="#" class="navigator-link " panel-name="testlist-LinsternerClassDemo">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-ListenerDemoSuite">
+                  <a href="#" class="navigator-link " panel-name="group-LinsternerClassDemo">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-ListenerDemoSuite">
+                  <a href="#" class="navigator-link " panel-name="times-LinsternerClassDemo">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-ListenerDemoSuite">
+                  <a href="#" class="navigator-link " panel-name="reporter-LinsternerClassDemo">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-ListenerDemoSuite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LinsternerClassDemo">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-ListenerDemoSuite">
+                  <a href="#" class="navigator-link " panel-name="chronological-LinsternerClassDemo">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">5 methods, 4 failed,  1 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
                     <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-ListenerDemoSuite" class="hide-methods failed suite-ListenerDemoSuite"> (hide)</a> <!-- hide-methods failed suite-ListenerDemoSuite -->
-                      <a href="#" panel-name="suite-ListenerDemoSuite" class="show-methods failed suite-ListenerDemoSuite"> (show)</a> <!-- show-methods failed suite-ListenerDemoSuite -->
+                      <a href="#" panel-name="suite-LinsternerClassDemo" class="hide-methods failed suite-LinsternerClassDemo"> (hide)</a> <!-- hide-methods failed suite-LinsternerClassDemo -->
+                      <a href="#" panel-name="suite-LinsternerClassDemo" class="show-methods failed suite-LinsternerClassDemo"> (show)</a> <!-- show-methods failed suite-LinsternerClassDemo -->
                     </span>
-                    <div class="method-list-content failed suite-ListenerDemoSuite">
+                    <div class="method-list-content failed suite-LinsternerClassDemo">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-ListenerDemoSuite" title="com.testng.listenersconcept.SuiteListenerDemo" hash-for-method="takeScreenshotTest">takeScreenshotTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-LinsternerClassDemo" title="com.testng.listenerDemo.ClassLevelListener2" hash-for-method="facebookLogin">facebookLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-ListenerDemoSuite -->
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinsternerClassDemo" title="com.testng.listenerDemo.ClassLevelListener3" hash-for-method="payTM">payTM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinsternerClassDemo" title="com.testng.listenerDemo.ClassLevelListener" hash-for-method="testLogin1">testLogin1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinsternerClassDemo" title="com.testng.listenerDemo.ClassLevelListener" hash-for-method="testLogin2">testLogin2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LinsternerClassDemo -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-LinsternerClassDemo" class="hide-methods skipped suite-LinsternerClassDemo"> (hide)</a> <!-- hide-methods skipped suite-LinsternerClassDemo -->
+                      <a href="#" panel-name="suite-LinsternerClassDemo" class="show-methods skipped suite-LinsternerClassDemo"> (show)</a> <!-- show-methods skipped suite-LinsternerClassDemo -->
+                    </span>
+                    <div class="method-list-content skipped suite-LinsternerClassDemo">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinsternerClassDemo" title="com.testng.listenerDemo.ClassLevelListener" hash-for-method="testLogin3">testLogin3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-LinsternerClassDemo -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,132 +145,275 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-ListenerDemoSuite" class="panel ListenerDemoSuite">
-          <div class="suite-ListenerDemoSuite-class-failed">
+        <div panel-name="suite-LinsternerClassDemo" class="panel LinsternerClassDemo">
+          <div class="suite-LinsternerClassDemo-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.testng.listenersconcept.SuiteListenerDemo</span>
+              <span class="class-name">com.testng.listenerDemo.ClassLevelListener2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="takeScreenshotTest">
-                  </a> <!-- takeScreenshotTest -->
-                  <span class="method-name">takeScreenshotTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.testng.listenersconcept.SuiteListenerDemo.takeScreenshotTest(SuiteListenerDemo.java:32)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
+                  <a name="facebookLogin">
+                  </a> <!-- facebookLogin -->
+                  <span class="method-name">facebookLogin</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.pages.FaceBookAssert.testfbLogin(FaceBookAssert.java:16)
+	at com.testng.listenerDemo.ClassLevelListener2.facebookLogin(ClassLevelListener2.java:23)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LinsternerClassDemo-class-failed -->
+          <div class="suite-LinsternerClassDemo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testng.listenerDemo.ClassLevelListener3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="payTM">
+                  </a> <!-- payTM -->
+                  <span class="method-name">payTM</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: no such frame
+  (Session info: chrome=80.0.3987.163)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PRINHYLTPDL1648&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\SASIDH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32f6bb3f12a077e8f4ecdd238cf1be5d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:872)
+	at com.pages.FrameTest1.testframe(FrameTest1.java:31)
+	at com.testng.listenerDemo.ClassLevelListener3.payTM(ClassLevelListener3.java:21)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LinsternerClassDemo-class-failed -->
+          <div class="suite-LinsternerClassDemo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testng.listenerDemo.ClassLevelListener</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin1">
+                  </a> <!-- testLogin1 -->
+                  <span class="method-name">testLogin1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3dsadas[1]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PRINHYLTPDL1648&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\SASIDH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cfc9a530272b840f96bb25be2fcd55c
+*** Element info: {Using=xpath, value=//h3dsadas[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.LoginPage.search(LoginPage.java:20)
+	at com.testng.listenerDemo.ClassLevelListener.testLogin1(ClassLevelListener.java:20)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin2">
+                  </a> <!-- testLogin2 -->
+                  <span class="method-name">testLogin2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.testng.listenerDemo.ClassLevelListener.testLogin2(ClassLevelListener.java:29)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ListenerDemoSuite-class-failed -->
-        </div> <!-- panel ListenerDemoSuite -->
-        <div panel-name="test-xml-ListenerDemoSuite" class="panel">
+          </div> <!-- suite-LinsternerClassDemo-class-failed -->
+          <div class="suite-LinsternerClassDemo-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.testng.listenerDemo.ClassLevelListener</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin3">
+                  </a> <!-- testLogin3 -->
+                  <span class="method-name">testLogin3</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ClassLevelListener.testLogin3()[pri:3, instance:com.testng.listenerDemo.ClassLevelListener@40e6dfe1] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LinsternerClassDemo-class-skipped -->
+        </div> <!-- panel LinsternerClassDemo -->
+        <div panel-name="test-xml-LinsternerClassDemo" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\sasiworkspace\TestTraining\testng_ListenerDemo.xml</span>
+            <span class="header-content">D:\sasiworkspace\TestTraining\testng_sat.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;ListenerDemoSuite&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;LinsternerClassDemo&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.utils.CustomListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.utils.TestCutomListeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;ListenerTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LinsternerTestClassDemo&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testng.listenersconcept.SuiteListenerDemo&quot;/&gt;
+      &lt;class name=&quot;com.testng.listenerDemo.ClassLevelListener&quot;/&gt;
+      &lt;class name=&quot;com.testng.listenerDemo.ClassLevelListener2&quot;/&gt;
+      &lt;class name=&quot;com.testng.listenerDemo.ClassLevelListener3&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ListenerTest --&gt;
-&lt;/suite&gt; &lt;!-- ListenerDemoSuite --&gt;
+  &lt;/test&gt; &lt;!-- LinsternerTestClassDemo --&gt;
+&lt;/suite&gt; &lt;!-- LinsternerClassDemo --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-ListenerDemoSuite" class="panel">
+        <div panel-name="testlist-LinsternerClassDemo" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for ListenerDemoSuite</span>
+            <span class="header-content">Tests for LinsternerClassDemo</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ListenerTest (1 class)</span>
+                <span class="test-name">LinsternerTestClassDemo (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-ListenerDemoSuite" class="panel">
+        <div panel-name="group-LinsternerClassDemo" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for ListenerDemoSuite</span>
+            <span class="header-content">Groups for LinsternerClassDemo</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-ListenerDemoSuite" class="panel">
+        <div panel-name="times-LinsternerClassDemo" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for ListenerDemoSuite</span>
+            <span class="header-content">Times for LinsternerClassDemo</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_ListenerDemoSuite');
-function tableData_ListenerDemoSuite() {
+suiteTableInitFunctions.push('tableData_LinsternerClassDemo');
+function tableData_LinsternerClassDemo() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'takeScreenshotTest')
-data.setCell(0, 2, 'com.testng.listenersconcept.SuiteListenerDemo')
-data.setCell(0, 3, 2209);
-window.suiteTableData['ListenerDemoSuite']= { tableData: data, tableDiv: 'times-div-ListenerDemoSuite'}
+data.setCell(0, 1, 'payTM')
+data.setCell(0, 2, 'com.testng.listenerDemo.ClassLevelListener3')
+data.setCell(0, 3, 18812);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'facebookLogin')
+data.setCell(1, 2, 'com.testng.listenerDemo.ClassLevelListener2')
+data.setCell(1, 3, 15136);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLogin1')
+data.setCell(2, 2, 'com.testng.listenerDemo.ClassLevelListener')
+data.setCell(2, 3, 12943);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLogin2')
+data.setCell(3, 2, 'com.testng.listenerDemo.ClassLevelListener')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLogin3')
+data.setCell(4, 2, 'com.testng.listenerDemo.ClassLevelListener')
+data.setCell(4, 3, 0);
+window.suiteTableData['LinsternerClassDemo']= { tableData: data, tableDiv: 'times-div-LinsternerClassDemo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
-              <div id="times-div-ListenerDemoSuite">
-              </div> <!-- times-div-ListenerDemoSuite -->
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-LinsternerClassDemo">
+              </div> <!-- times-div-LinsternerClassDemo -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-ListenerDemoSuite" class="panel">
+        <div panel-name="reporter-LinsternerClassDemo" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for ListenerDemoSuite</span>
+            <span class="header-content">Reporter output for LinsternerClassDemo</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-ListenerDemoSuite" class="panel">
+        <div panel-name="ignored-methods-LinsternerClassDemo" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testng.listenerDemo.ClassLevelListener</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">facebookLogin</span>
+                <br/>
+                <span class="ignored-method-name">payTM</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-ListenerDemoSuite" class="panel">
+        <div panel-name="chronological-LinsternerClassDemo" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testng.listenersconcept.SuiteListenerDemo</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">com.testng.listenerDemo.ClassLevelListener2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">takeScreenshotTest</span>
-                <span class="method-start">7945 ms</span>
+                <span class="method-name">facebookLogin</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">10553 ms</span>
-              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.listenerDemo.ClassLevelListener3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">payTM</span>
+                <span class="method-start">15861 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.listenerDemo.ClassLevelListener</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin1</span>
+                <span class="method-start">35081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin2</span>
+                <span class="method-start">48423 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

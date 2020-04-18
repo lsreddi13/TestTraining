@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LinsternerClassDemo">
+	<listeners>
+		<listener class-name="com.utils.TestCutomListeners"></listener>
+	</listeners>
+	<test thread-count="5" name="LinsternerTestClassDemo">
+		<classes>
+			<class name="com.testng.listenerDemo.ClassLevelListener" />
+			<class name="com.testng.listenerDemo.ClassLevelListener2" />
+			<class name="com.testng.listenerDemo.ClassLevelListener3" />
+		</classes>
+	</test> <!-- LinsternerTestClassDemo -->
+</suite> <!-- LinsternerClassDemo -->
